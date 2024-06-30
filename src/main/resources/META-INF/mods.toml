@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+issueTrackerURL="https://github.com/yourusername/examplemod/issues"
+showAsResourcePack=false
+
+[[mods]]
+modId="blockblocker"
+version="1.0.0"
+displayName="blockblocker"
+description='An example mod for demonstration purposes.'
+
+[[dependencies.blockblocker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.blockblocker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
